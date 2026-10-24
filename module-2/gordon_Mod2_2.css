@@ -27,12 +27,12 @@ address > a {
     color: #4f3674;
     text-decoration: none;
 }
-address > a:hover {
-    text-decoration: underline;
-    color: #d6a800;
-}
 address > a:visited {
     color: hotpink;
+}
+address > a:hover {
+    text-decoration: underline;
+    background-color: #d6a800;
 }
 .sentence{
     font-style: italic;
