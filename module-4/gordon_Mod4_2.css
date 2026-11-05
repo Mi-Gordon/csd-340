@@ -1,0 +1,44 @@
+/* Mike Gordon
+Build a Webpage Exercise, Part 4
+CSD340 */
+
+#container {
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    color: rgba(0, 80, 120, 1);
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10%;
+}
+
+#image-gallery div {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+h3 {
+    text-align: center;
+    color: rgba(128, 4, 244,1);
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+    color: rgba(36, 99, 97,1);
+}
+
+#landingPage {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: right;
+}
